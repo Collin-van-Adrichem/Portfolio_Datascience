@@ -39,6 +39,11 @@
 <details>
   <summary>Click to expand!</summary>
   
-  Voor dit onderdeel heb ik veel werk geleverd. Voor de research paper heb ik het
+  Voor dit onderdeel heb ik veel werk geleverd. Voor de research paper heb ik de volgende dingen gedaan:
+  
+  - Het template gemaakt met hierbij een korte beschrijving wat er in de hoofdstukken moet komen.
+  - De data set beschreven.
+  - In de machine learning models de predictive models beschreven.
+  - Het test onderdeel beschreven.
   
 </details>
