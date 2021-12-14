@@ -27,3 +27,18 @@
   
 </details>
 
+## Comunication
+
+### Presentations
+<details>
+  <summary>Click to expand!</summary>
+  
+</details>
+
+### Writing paper
+<details>
+  <summary>Click to expand!</summary>
+  
+  Voor dit onderdeel heb ik veel werk geleverd. Voor de research paper heb ik het
+  
+</details>
