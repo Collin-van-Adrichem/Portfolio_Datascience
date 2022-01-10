@@ -68,7 +68,7 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
   ### Model configureren
   
   #### Decision Tree
-  
+  Na dat ik het besluit genomen had om de Decision Tree te gaan gebruiken moest deze geprogrameerd worden. Gelukkig hadden we net uitleg over dit model gehad in de les en was er redelijk veel over te vinden online. Na het een en ander geprobeerd te hebben heb ik de volgende code geschreven: [Decision Tree] 
   
 </details>
 
