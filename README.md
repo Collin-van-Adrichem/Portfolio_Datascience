@@ -54,12 +54,12 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
   https://ieeexplore.ieee.org/abstract/document/8646253. Deze paper classifiseerd bewegingen van een exoskelet door middel van een Decision Tree. 
   https://ieeexplore.ieee.org/abstract/document/8323826. Deze paperclassifiseerd IMU data door middel van machine learning. In deze paper vergelijken ze, statistical technique, SVM en decision tree. uit deze vergelijking blijkt dat de Decision Tree het beste gebruikt kan worden voor het classificeren van IMU data.
   
-  #### Random Forest Classifier
+  #### Random Forest Classifier (RFC
   
- Na het ontwerpen en tunen van de Decision Tree waren we als groep nog niet tevreden met het resultaat dus besloten we verder te zoeken. op dit moment stuite wij op onderzoeken over Random Forest Classifiers en zijn hier dieper op in gegaan.  
-  https://ieeexplore.ieee.org/abstract/document/7962153	Deze paper vergelijkt de Decision Tree met de Random Forest Classifier. Hier uit komt naar voren dat de decision tree erg sterk is bij het classificeren van patronen maar ook snel overfit bij en grote dataset. Door een Random Forest Classifier te gebruiken, wat in feite "een bos van decision trees" is behoud je het sterke classificeren maar voorkom je het overfitten door de dataset te verdelen over meedere Decision Trees.
-  https://ieeexplore.ieee.org/abstract/document/9393014. Deze paper vergelijkt traditionele manieren van beweging detectie met het gebruik van een Random Forest Classifier. Op vele aspecten wint de Random Forest Classifier van de traditionele technieken.
-  Gezien de grote van de data set en de veel belovende onderzoeken heb ik besloten om de Random Forest Classifier uit te werken en te tunen.
+ Na het ontwerpen en tunen van de Decision Tree waren we als groep nog niet tevreden met het resultaat dus besloten we verder te zoeken. op dit moment stuite wij op onderzoeken over RFC en zijn hier dieper op in gegaan.  
+  https://ieeexplore.ieee.org/abstract/document/7962153	Deze paper vergelijkt de Decision Tree met de RFC. Hier uit komt naar voren dat de decision tree erg sterk is bij het classificeren van patronen maar ook snel overfit bij en grote dataset. Door een RFC te gebruiken, wat in feite "een bos van decision trees" is behoud je het sterke classificeren maar voorkom je het overfitten door de dataset te verdelen over meedere Decision Trees.
+  https://ieeexplore.ieee.org/abstract/document/9393014. Deze paper vergelijkt traditionele manieren van beweging detectie met het gebruik van een RFC. Op vele aspecten wint de RFC van de traditionele technieken.
+  Gezien de grote van de data set en de veel belovende onderzoeken heb ik besloten om de RFC uit te werken en te tunen.
   
   #### Conclusie
   
@@ -68,7 +68,9 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
   ### Model configureren
   
   #### Decision Tree
-  Na dat ik het besluit genomen had om de Decision Tree te gaan gebruiken moest deze geprogrameerd worden. Gelukkig hadden we net uitleg over dit model gehad in de les en was er redelijk veel over te vinden online. Na het een en ander geprobeerd te hebben heb ik de volgende code geschreven: [Decision Tree] 
+  Na dat ik het besluit genomen had om de Decision Tree te gaan gebruiken moest deze geprogrameerd worden. Gelukkig hadden we net uitleg over dit model gehad in de les en was er redelijk veel over te vinden online. Na het een en ander geprobeerd te hebben heb ik de volgende code geschreven: [Decision Tree](Models/Decision_tree_sprint_detection.ipynb). Dit model ontvangt de dataset in chunks van 1 seconde met een overlapping van 0.5 seconden. Deze waarden zijn gekozen gezien sprints nooit korter dan 1 seconde duren. Deze waarden staan vast voor alle modellen die gemaakt worden voor dit project. Op deze manier zijn de modellen eenvoudig met elkaar te vergelijken. Dit model bepaalt dus iedere seconde of er gesprint wordt of niet.
+  
+  #### Random Forest Classifier (RFC)
   
 </details>
 
