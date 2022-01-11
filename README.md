@@ -46,9 +46,30 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
 
 ### Defenitie van opdracht
 
-Fitness trackers en health apps worden steeds populairder onder de sporters. Iedere dag je hoeveelheid stappen bijhouden of kijken hoeveel calorieën je hebt verbrand tijdens een workout. Deze trackers worden veel al gebruikt bij hardlopen en wielrennen, maar ook bij sporten als rugby, voetbal en hockey. Bij al deze sporten geeft de tracker een duidelijk beeld over de prestaties van de gebruiker. Helaas zijn bijna alle trackers gemaakt voor non rolstoel gebruikers. Aangezien ze bijna allemaal gebaseerd zijn op het tellen van stappen. Maar zoals een rolstoel athleet in een onderzoek zei "But, I don't take steps". Misschien bied het gebruik van IMU sensors in combinatie met machinelearning een uitkomst voor hun. Dit is exact waar ons project zich op focust
+<details>
+  <summary>Click to expand!</summary>
+  
+  Fitness trackers en health apps worden steeds populairder onder de sporters. Iedere dag je hoeveelheid stappen bijhouden of kijken hoeveel calorieën je hebt verbrand tijdens een workout. Deze trackers worden veel al gebruikt bij hardlopen en wielrennen, maar ook bij sporten als rugby, voetbal en hockey. Bij al deze sporten geeft de tracker een duidelijk beeld over de prestaties van de gebruiker. Helaas zijn bijna alle trackers gemaakt voor non rolstoel gebruikers. Aangezien ze bijna allemaal gebaseerd zijn op het tellen van stappen. Maar zoals een rolstoel athleet in een onderzoek zei "But, I don't take steps". Misschien bied het gebruik van IMU sensors in combinatie met machinelearning een uitkomst voor hun. Dit is exact waar ons project zich op focust
 
-Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen in rolstoelbasketbal met behulp van IMU opnames. Om voor ons zelf een duidelijk beeld te schetsen waar wij heen willen met dit project, hebben wij een plan van aanpak geschreven. [Plan van Aanpak](
+Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen in rolstoelbasketbal met behulp van IMU opnames. Om voor ons zelf een duidelijk beeld te schetsen waar wij heen willen met dit project, hebben wij een plan van aanpak geschreven. Zie [Plan van Aanpak](Documentatie/Planofapproach.pdf). Hierin heb ik onderandere de research question met subquestions bedacht en opgesteld. Deze luiden als volgt:
+
+- How can IMU data be used to identify wheelchair basketball-specific movements?
+    - Which form of data processing will be used?
+    - Which specific movements can be detected?
+    - Which sensor data is used for each movement?
+    - Can movements be used to predict fatigue?
+    - Can movements be used to detect overload? These sub question will help us to get an answer to the main research question.
+
+### Evaluatie
+
+
+  
+  
+</details>
+
+
+
+
 
 ## Predictive analytics
 <details>
