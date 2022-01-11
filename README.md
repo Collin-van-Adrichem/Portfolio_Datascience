@@ -44,10 +44,12 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
 
 ## Project Onderzoek
 
-### Defenitie van opdracht
 
 <details>
   <summary>Click to expand!</summary>
+  
+  
+### Defenitie van opdracht
   
   Fitness trackers en health apps worden steeds populairder onder de sporters. Iedere dag je hoeveelheid stappen bijhouden of kijken hoeveel calorieën je hebt verbrand tijdens een workout. Deze trackers worden veel al gebruikt bij hardlopen en wielrennen, maar ook bij sporten als rugby, voetbal en hockey. Bij al deze sporten geeft de tracker een duidelijk beeld over de prestaties van de gebruiker. Helaas zijn bijna alle trackers gemaakt voor non rolstoel gebruikers. Aangezien ze bijna allemaal gebaseerd zijn op het tellen van stappen. Maar zoals een rolstoel athleet in een onderzoek zei "But, I don't take steps". Misschien bied het gebruik van IMU sensors in combinatie met machinelearning een uitkomst voor hun. Dit is exact waar ons project zich op focust
 
