@@ -153,7 +153,9 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
   <summary>Klik om te openen</summary>
   Ik heb in totaal 3 presentaties gemaakt en gegeven waarvan 1 internal en 2 external
   [Internal1](presentaties/Internal_presentation_1.pdf)
+  
   [External1](presentaties/External_presentation_1.pdf)
+  
   [External2](presentaties/External_presentation_2.pdf)
   
 </details>
