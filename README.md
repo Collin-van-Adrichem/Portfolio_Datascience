@@ -16,7 +16,7 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
 ## Datacamp
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Klik om te openen</summary>
   Gedurende deze minor stond de programeertaal Phyton centraal. Om deze taal meer onder de knie te krijgen heeft iedereen tijdens de minor een online cursussen phyton coderen   gevolgd via Datacamp. Bij deze cursus stonden de volgende onderwerpen centraal: het omgaan met panda dataframes, het visualiseren van data, data preparation en het toepassen en valideren van verschillende machine learning modellen.
   
   Ik had redelijk wat moeite met deze cursussen phyton. Coderen is nooit mijn sterkste kant geweest toch vind ik het erg interresant en wil ik er graag beter in worden. 
@@ -26,19 +26,19 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
 
 ### Op eigen deelname aan het project
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Klik om te openen</summary>
   
 </details>
 
 ### Op eigen leerdoelen
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Klik om te openen</summary>
   
 </details>
 
 ### Op de project groep als een geheel
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Klik om te openen</summary>
   
 </details>
 
@@ -46,7 +46,7 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
 
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Klik om te openen</summary>
   
   
 ### Defenitie van opdracht
@@ -63,14 +63,25 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
     - Can movements be used to detect overload? These sub question will help us to get an answer to the main research question.
 
 ### Evaluatie
-In de loop van het project kwamen we er toch achter dat we niet genoeg tijd zouden hebben om alle subquestions te kunnen beantwoorden. Daarom hebben we besloten om de onderzoeksvraag en deelvragen aan te passen voor de research paper. Dit resulteerde in de volgende onderzoeks- en deel vragen:
+
+  In de loop van het project kwamen we er toch achter dat we niet genoeg tijd zouden hebben om alle subquestions te kunnen beantwoorden. Daarom hebben we besloten om de onderzoeksvraag en deelvragen aan te passen voor de research paper. Dit resulteerde in de volgende onderzoeks- en deel vragen:
   
 - Can an RFC and a RNN be used to classify sprints in partially defined IMU recordings?
     - Which form of data processing will be used?
     - Which sensor data is used to detect a sprint?
 
-  Deze vragen worden duidelijk beantwoord in onze [research paper](
+  Deze vragen worden duidelijk beantwoord in onze [research paper](Documentatie/Research_Paper_Project_Wheels_V1.pdf). Maar dit is maar een deel van wat er allemaal mogelijk is met machine learning in combinatie met IMU sensor data. Ons onderzoek is compleet gefocust geweest op het detecteren van sprints, maar ons machine learning model zou ook andere eenvoudige bewegingen als rotaties en botsingen kunnen detecteren. Maar voor dit mogelijk is, zal net als bij de sprints, de data set uitgebreid moeten worden met meer positive data punten van deze bewegingen. Wanneer ook deze bewegingen gedetecteerd kunnen worden is het zelfs mogelijk om deze te combineren om complexere bewegingen in het spel te vinden. Zoals bijvoorbeeld de combinatie van rotaties en sprints om te bepalen of er aangevallen of verdedigd wordt. Maar dingen als vermoeitheid of uitputting kunnen voorspeld worden aan de hand van de afname van de hoeveelheid sprints en de afname in sprint topsnelheid. Dit kan trainers en coaches helpen bij het zien wanneer een speler gewisseld moet worden.
   
+  Naast dieper in de sport wereld gaan met deze techniek van beweging detectie, kan het ook gebruikt worden op medisch gebied. Door de dagelijkse beweging van een patient in een rolstoel bij te houden, kan de gezondheid en het herstel van deze patient bijgehouden worden. Zo zijn er meerdere doeleinde waarin dit onderzoek als goede basis kan dienen. Wij hopen dan ook als project groep, dat iemand het stokje van ons overneemt en door gaat met een van deze ideeën.
+  
+  ### Conclusies
+  
+  TIjdens dit project is er onderzoek gedaan naar hoe machinelearning sprints kan detecteren uit deels gedefinieerde IMU sensor data. Tijdens dit onderzoek zijn meerdere modellen gebouwd, toegepast en getest. Na het testen van alle modellen bleek dat de RFC en de RNN het best gebruikt kunnen worden bij het classificeren van sprints. Tijdens dit project bleek dat de deels gedefinieerde sensor data wel voor wat problemen zorgde. Deze dataset is dan ook uitgebreid met meer positieve datapunten toe tevoegen. Deze datapunten zijn gevonden door de false positives van de RNN en de RFC te vergelijken met elkaar en met de video om er achter te komen of deze eigenlijk true positives zijn. Met deze techniek is de dataset uitgebreid van maar 2.3% positieve datapunten voor sprints naar 17.1%. Door deze verbeterde dataset, kon het RFC model 90.4% van alle getagde sprints met een precisie van 89% detecteren in de train/valideer dataset. Om zeker te zijn dat het model werkte, is het model ook gevoed met een compleet onbekende test set. Het RFC model kon sprints uit deze dataset detecteren met een precisie van 91.67%. De recall is onbekend aangezien deze dataset ongedefinieerd was. Dit resultaat bewijst dat het mogelijk is om sprints te classificeren uit deels gedefinieerde IMU sensor data met een RFC en een RNN.
+  
+  ###Planning
+  
+  Tijdens het hele project is er gebruikt gemaakt van scrum in Azure devops, zie https://dev.azure.com/Wheeeeeeeeeeeeeeels/wheels/_boards/board/t/wheels%20Team/Stories_m_. Iedere dag werd de dag gestart om 9:30 met een stand-up meeting, hier werd besproken wat iedereen de dag er voor gedaan had, of er nog complicaties opgetreden waren en wat ze vandaag gaan doen. Dit zorgde er voor dat iedereen up to date was met waar de rest mee bezig was en gaf een makkelijk instap moment om om hulp te vragen als je ergens tegen aan liep. Gedurende het hele project werkte we met sprints van 2 weken. Aan het eind van deze twee weken hadden we een retrospective en plande we wat er de volgende sprint gedaan moest worden. Tijdens deze retrospective bespraken we wat we wilde behouden, waarmee we wilde stoppen en wat we wilde verbeteren in het process van ons project. Bij het plannen van de volgende sprint maakte we gezamelijk de userstories en gebruikte we "scrum poker" om samen te bepalen hoeveel werk iedere userstory is. Het besluit van het gebruiken van scrum poker is genomen nadat we het idee hadden dat niet iedereen even veel werk verrichte. Voor het plannen van de internal en external presentations hadden wij een rouleringssysteem waarbij iedereen minimaal 2 keer aan de beurt was.
+
   
 </details>
 
@@ -80,7 +91,7 @@ In de loop van het project kwamen we er toch achter dat we niet genoeg tijd zoud
 
 ## Predictive analytics
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Klik om te openen</summary>
   
   ### Model selecteren
 
@@ -135,13 +146,13 @@ In de loop van het project kwamen we er toch achter dat we niet genoeg tijd zoud
 
 ### Presentations
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Klik om te openen</summary>
   Ik heb in totaal 4 presentaties gemaakt en gegeven waarvan 2 internal en 2 external
 </details>
 
 ### Writing paper
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Klik om te openen</summary>
   
   Voor dit onderdeel heb ik veel werk geleverd. Voor de research paper heb ik de volgende dingen gedaan:
   
