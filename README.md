@@ -147,7 +147,8 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
 ### Presentations
 <details>
   <summary>Klik om te openen</summary>
-  Ik heb in totaal 4 presentaties gemaakt en gegeven waarvan 2 internal en 2 external
+  Ik heb in totaal 3 presentaties gemaakt en gegeven waarvan 1 internal en 2 external
+  
 </details>
 
 ### Writing paper
