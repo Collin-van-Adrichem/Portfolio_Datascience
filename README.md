@@ -190,11 +190,11 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
   Voor dit onderdeel heb ik veel werk geleverd. Voor de research paper heb ik de volgende dingen gedaan:
   
   - Het template gemaakt met hierbij een korte beschrijving wat er in de hoofdstukken moet komen.
-  - Voor versie 0.5 
+  - Voor [versie 0.5](Documentatie/Research_Paper_Project_Wheels_V0.5.pdf) 
     - De data set beschreven.
     - Random Forest Clasifier beschreven, Decision Tree beschreven, Recurrent Neural Network beschreven.
     - Het valideer onderdeel beschreven.
-  - Voor versie 1
+  - Voor [versie 1](
     - zijn mijn stukken uit versie 0.5 verder uitgebreid door medestudenten
     - de abstract beschreven
     - de introductie geschreven
