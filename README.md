@@ -160,7 +160,11 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
  Voor de dataset gebruikt kon worden moest deze opgeschoond worden. De data bevatte namelijk een aantal 'NaN' waardes. Deze waardes waren redelijk eenvoudig omgezet naar 0 door middel van de ".fillna(0)" functie, zie [Decision Tree](Models/Decision_tree_sprint_detection.ipynb) code (de dataset die door het model geoutput werd, is gebruikt als input om het model te trainen, hierdoor was de ".fillna(0)" overbodig geworden). Tijdens het valideren van de data bleek al snel dat de IMU sensor langer bewegingen heeft opgenomen dan op de video te zien was. gelukkig hadden we bij het verkennen van de data al vast gesteld wat de begin en eind tijden van de gespeelde kwarten van de wedstrijd waren. Dit probleem hadden we dus al aan zien komen. Om dit op te lossen is de quartersplit functie toegevoegd aan de [RFC speler A](Models/RandomForrestCLassifier_sprint_detection.ipynb). 
   
   ### Data preparation
-  Een groot probleem tijdens dit project was het tekort aan getagde "True Positives" voor sprints. Dit zorgde voor veel incorrecte "false positive". Om de dataset uit te breiden heb ik in eerste instantie alle "false positive" met de hand beoordeeld, door de grafieken met de video te vergelijken. Dit koste erg veel tijd. Toen er eenmaal 2 goed werkende modellen waren (de RNN en de RFC), heb ik samen met Martijn een code geschreven die de "false positives" van deze twee modellen vergelijkt om te kijken of het wel echt een "false positive" is, zie  [vergelijking van "false positives"](. Onze theorie was dat als beide modellen van de zelde timestamp zeggen dat iets een "false positive" is dit eigenlijk een true positive moet zijn. Om te checken of onze theorie klopte hebben wij een aantal van deze timestamps terug gezocht in de video, hieruit bleek dat wij inderdaad gelijk hadden. 
+  Een groot probleem tijdens dit project was het tekort aan getagde "True Positives" voor sprints. Dit zorgde voor veel incorrecte "false positive". Om de dataset uit te breiden heb ik in eerste instantie alle "false positive" met de hand beoordeeld, door de grafieken met de video te vergelijken. Dit koste erg veel tijd. Toen er eenmaal 2 goed werkende modellen waren (de RNN en de RFC), heb ik samen met Martijn een code geschreven die de "false positives" van deze twee modellen vergelijkt om te kijken of het wel echt een "false positive" is, zie  [vergelijking van "false positives"](Models/Compare_sprint_models.ipynb). Onze theorie was dat als beide modellen van de zelde timestamp zeggen dat iets een "false positive" is dit eigenlijk een true positive moet zijn. Om te checken of onze theorie klopte hebben wij een aantal van deze timestamps terug gezocht in de video, hieruit bleek dat wij inderdaad gelijk hadden. Met deze techniek hebben wij de dataset verbeterd van 2.4% getagde sprints naar 17.1% getagde sprints.
+  
+  ### Data uitleg
+  De verkregen dataset bestaat uit opnames van 2 IMU sensoren die over 3 assen rotaties meten (XYZ). Dit resulteerde in 6 features raw data. De dataset was verder nog uitgebreid met een aantal features, deze features waren berekende waarden met als basis de 6 raw data features. Deze berekende features waren dingen als "Frame acceleration", "Frame angle" en "Time line". In totaal bevatte de dataset 16 features die gebruikt konden worden om verschillende bewegingen te detecteren. De complete dataset had een sample frequentie van 100Hz.
+  Naast deze dataset van sensordata ontvingen wij ook een dataset met verschillende getagde acties. Deze acties zijn met de hand getagd door iemand die de video van de wedstrijd bekeken had. Ook ontvingen wij de video's waar de getagde data en de sensor data vandaan kwam. De combinatie van deze 3 vormen van data moesten wij dit project gebruiken.
   
 </details>
 
@@ -186,12 +190,15 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
   Voor dit onderdeel heb ik veel werk geleverd. Voor de research paper heb ik de volgende dingen gedaan:
   
   - Het template gemaakt met hierbij een korte beschrijving wat er in de hoofdstukken moet komen.
-  - Voor versie 0.5
+  - Voor versie 0.5 
     - De data set beschreven.
-    - Random Forest Clasifier beschreven, Decision Tree beschreven, Recurrent Neural Network beschreven, Convolutional Neural network beschreven.
-    - Het test onderdeel beschreven.
+    - Random Forest Clasifier beschreven, Decision Tree beschreven, Recurrent Neural Network beschreven.
+    - Het valideer onderdeel beschreven.
   - Voor versie 1
+    - zijn mijn stukken uit versie 0.5 verder uitgebreid door medestudenten
     - de abstract beschreven
+    - de introductie geschreven
     - de Dataset beschreven
+    - een deel van de discussion geschreven
   
 </details>
