@@ -24,11 +24,19 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
   
 </details>
 
-## Reflectie en evaluatie
+## Reflectie en evaluatie met STARR
 
 ### Op eigen deelname aan het project
 <details>
   <summary>Klik om te openen</summary>
+  
+| | |
+| :---:   | :-: |
+| Situatie | During the minor I was part of the Wheels project group. This project was about how you can use IMU data to classify specific wheelchair basketball movements. |
+| Taak | During the project I wanted to make a good contribution to my project team and didn't want to lack in work ethic. Furthermore, I wanted to learn about Applied Data Science and wanted to share my knowledge about specific subjects I learned from school to the rest of my project team. |
+| Actie | In the project I started with learning the basics of machine learning through an online programming course named Datacamp. When this was finished I began with focussing on what the possibilities were with the given dataset and started with writing code to improve the given dataset. When this was done is started to dive into predictive models like neural networks through research and trial and error, to understand how it all worked and how I could be implemented into my project. In between all of this I gave internal and external presentations to the class and external people|
+| Resultaat | I finished the online programming course Datacamp and wrote code that worked well to fix a few issues that we had with the dataset like cleaning and finding more ground truths. After that I finished multiple Neural Network models like a 1D Convolution Neural Network and a Recurrent Neural Network with LSTM that were heavily used during the project. In these models and models of my teammates I implemented many features that helped me and my teammates to have better results on our models, a few examples are data loaders, data cleaners and validation programs. I also helped my teammates with coding their parts so that they wouldn’t be stuck on problems. Furthermore, I wrote parts of the Research paper that I knew most off and kept the whole class updated on my project through internal and external presentations. Also, I gave a learning lab to the whole class about the importance of data preparation of sensor data and how you could implement it. |
+| Reflectie| My coding contribution to this project was good. I did a lot of the coding for my project and helped my teammates with coding when it was needed. For the research paper I had a good but not excellent contribution, I wrote what in needed to write and I reviewed everybody’s work but I did just as much work as my teammates. I gave a lot of presentations during the project, and I kept the class updated about my project, I also gave a learning lab about data preparation for sensor data. This was a great contribution to the project, the whole class and my own learning experience.|
   
 </details>
 
@@ -168,9 +176,9 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
   
 </details>
 
-## Comunication
+## Comunicatie
 
-### Presentations
+### Presentaties
 <details>
   <summary>Klik om te openen</summary>
   Tijdens deze minor heb ik meerdere presentaties gemaakt en gegeven. Bij deze presentaties lieten wij als projectgroep onze resultaten zien en blikte we vooruit op de toekomst. Ook gebruikte wij deze presentaties om vragen te stellen aan medestudenten als we ergens op vast liepen. de links naar mijn presentaties staan hier onder:
@@ -183,7 +191,7 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
   
 </details>
 
-### Writing paper
+### Paper schrijven
 <details>
   <summary>Klik om te openen</summary>
   
@@ -194,7 +202,7 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
     - De data set beschreven.
     - Random Forest Clasifier beschreven, Decision Tree beschreven, Recurrent Neural Network beschreven.
     - Het valideer onderdeel beschreven.
-  - Voor [versie 1](
+  - Voor [versie 1](Documentatie/Research_Paper_Project_Wheels_V1.pdf)
     - zijn mijn stukken uit versie 0.5 verder uitgebreid door medestudenten
     - de abstract beschreven
     - de introductie geschreven
