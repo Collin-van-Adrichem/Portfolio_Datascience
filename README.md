@@ -19,7 +19,7 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
   <summary>Klik om te openen</summary>
   Gedurende deze minor stond de programeertaal Phyton centraal. Om deze taal meer onder de knie te krijgen heeft iedereen tijdens de minor een online cursussen phyton coderen   gevolgd via Datacamp. Bij deze cursus stonden de volgende onderwerpen centraal: het omgaan met panda dataframes, het visualiseren van data, data preparation en het toepassen en valideren van verschillende machine learning modellen.
   
-  Ik had redelijk wat moeite met deze cursussen phyton. Coderen is nooit mijn sterkste kant geweest toch vind ik het erg interresant en wil ik er graag beter in worden. 
+  Ik had redelijk wat moeite met deze cursussen phyton. Coderen is nooit mijn sterkste kant geweest toch vind ik het erg interresant en wil ik er graag beter in worden. Ondanks dat het mij wat extra tijd gekost heeft heb ik toch alle Datacamp cursussen af kunnen ronden. Door deze cursussen heb ik veel geleerd over werken met datasets en het implementeren van verschillende modellen als KNN, Decision Tree en RFC in phyton. Mijn bewijs van het afronden van mij cursussen is te vinden via deze link: [Datacamp](
 </details>
 
 ## Reflectie en evaluatie
@@ -144,14 +144,26 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
 
 </details>
 
+## Data pre-processing
 
+<details>
+  <summary>Klik om te openen</summary>
+  
+  ### Data verkenning
+  
+  Om een beter idee te krijgen hoe ik dit project aan ging pakken, moest er niet alleen onderzoek gedaan worden naar de verschillende beschikbare modellen, maar ook de verkregen data en op welke manier deze data gebruikt kan worden. Voor dit project waren 24 unike datasets beschikbaar gesteld. Deze datasets komen van 2 gespeelde wedstrijden door 12 verschillende spelers. Iedere dataset bestaat uit sensordata van 2 IMU sensoren op een rolstoel, een op het frame en een op het wiel. Naast deze sensor data kregen we ook de video's van de gespeelde wedstrijden en een appart document met getagde acties aan de hand van deze video. Om een duidlijk beeld te krijgen van wat de sensordata precies betekende moest deze data eerst gesynchroniseerd worden met de getagde acties uit de video. Voor het synchroniseren hebben we gekeken naar de start en stop tijdstippen van de kwarten van de wedstrijd. Deze waren redelijk snel gevonden, gezien iedereen hierbij voor een langere tijd stil staat was dit redelijk eenvoudig te vinden in de sensordata. Dit hebben we gezamelijk als groep gedaan.
+  
+  Terwijl de groep bezig was met het synchroniseren van de data met de getagde acties heeft martijn een code geschreven die de sensordata visualiseerd in grafieken. 
+  
+</details>
 
 ## Comunication
 
 ### Presentations
 <details>
   <summary>Klik om te openen</summary>
-  Ik heb in totaal 3 presentaties gemaakt en gegeven waarvan 1 internal en 2 external
+  Tijdens deze minor heb ik meerdere presentaties gemaakt en gegeven. Bij deze presentaties lieten wij als projectgroep onze resultaten zien en blikte we vooruit op de toekomst. Ook gebruikte wij deze presentaties om vragen te stellen aan medestudenten als we ergens op vast liepen. de links naar mijn presentaties staan hier onder:
+  
   [Internal1](presentaties/Internal_presentation_1.pdf)
   
   [External1](presentaties/External_presentation_1.pdf)
