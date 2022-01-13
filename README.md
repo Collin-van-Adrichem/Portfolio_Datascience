@@ -17,9 +17,11 @@ Ik ben Collin van Adrichem, ik zit momenteel in het vierde jaar van elektrotechn
 
 <details>
   <summary>Klik om te openen</summary>
+  
   Gedurende deze minor stond de programeertaal Phyton centraal. Om deze taal meer onder de knie te krijgen heeft iedereen tijdens de minor een online cursussen phyton coderen   gevolgd via Datacamp. Bij deze cursus stonden de volgende onderwerpen centraal: het omgaan met panda dataframes, het visualiseren van data, data preparation en het toepassen en valideren van verschillende machine learning modellen.
   
-  Ik had redelijk wat moeite met deze cursussen phyton. Coderen is nooit mijn sterkste kant geweest toch vind ik het erg interresant en wil ik er graag beter in worden. Ondanks dat het mij wat extra tijd gekost heeft heb ik toch alle Datacamp cursussen af kunnen ronden. Door deze cursussen heb ik veel geleerd over werken met datasets en het implementeren van verschillende modellen als KNN, Decision Tree en RFC in phyton. Mijn bewijs van het afronden van mij cursussen is te vinden via deze link: [Datacamp](
+  Ik had redelijk wat moeite met deze cursussen phyton. Coderen is nooit mijn sterkste kant geweest toch vind ik het erg interresant en wil ik er graag beter in worden. Ondanks dat het mij wat extra tijd gekost heeft heb ik toch alle Datacamp cursussen af kunnen ronden. Door deze cursussen heb ik veel geleerd over werken met datasets en het implementeren van verschillende modellen als KNN, Decision Tree en RFC in phyton. Mijn bewijs van het afronden van mij cursussen is te vinden via deze link: [Datacamp](Datacamp/Datacamp_bewijs.JPG)
+  
 </details>
 
 ## Reflectie en evaluatie
@@ -153,7 +155,9 @@ Voor ons project zullen wij ons gaan focussen op het detecteren van bewegingen i
   
   Om een beter idee te krijgen hoe ik dit project aan ging pakken, moest er niet alleen onderzoek gedaan worden naar de verschillende beschikbare modellen, maar ook de verkregen data en op welke manier deze data gebruikt kan worden. Voor dit project waren 24 unike datasets beschikbaar gesteld. Deze datasets komen van 2 gespeelde wedstrijden door 12 verschillende spelers. Iedere dataset bestaat uit sensordata van 2 IMU sensoren op een rolstoel, een op het frame en een op het wiel. Naast deze sensor data kregen we ook de video's van de gespeelde wedstrijden en een appart document met getagde acties aan de hand van deze video. Om een duidlijk beeld te krijgen van wat de sensordata precies betekende moest deze data eerst gesynchroniseerd worden met de getagde acties uit de video. Voor het synchroniseren hebben we gekeken naar de start en stop tijdstippen van de kwarten van de wedstrijd. Deze waren redelijk snel gevonden, gezien iedereen hierbij voor een langere tijd stil staat was dit redelijk eenvoudig te vinden in de sensordata. Dit hebben we gezamelijk als groep gedaan.
   
-  Terwijl de groep bezig was met het synchroniseren van de data met de getagde acties heeft martijn een code geschreven die de sensordata visualiseerd in grafieken. 
+  Terwijl de groep bezig was met het synchroniseren van de data met de getagde acties heeft Martijn een code geschreven die de sensordata visualiseerd in grafieken. Deze code hielp ons bij het begrijpen van de getagde acties. Zo kwam ik er achter dat sprints het beste zichtbaar waren bij WheelRotationalSpeedX. Het maken van bochten was juist het beste zichtbaar bij FrameRotationalSpeedZ. De actie botsen bestond uit een hoge wielsnelheid die abrubt stopte en vaak zelfs een stukje de andere kant op rolt (in de grafiek naar negatief gaat). Met deze informatie stelde ik hypothese  dat WheelRotationalSpeedX het beste werkt voor het detecteren van botsingen. Uiteindelijk is Jake verder gegaan met het uitwerken van deze hypothese helaas is door tijdsdruk deze hypothese niet vergenoeg uitgewerkt om een conclusie te kunnen trekken.
+  
+  ###
   
 </details>
 
